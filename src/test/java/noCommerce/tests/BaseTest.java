@@ -24,7 +24,7 @@ public class BaseTest {
     String userPassword;
     public BaseTest(){
         LOG = LoggerFactory.getLogger(getClass());
-        webUrl = ConfigurationManager.getInstance().getProperty("webUrl");123$
+        webUrl = ConfigurationManager.getInstance().getProperty("webUrl");
         userEmail = DataManager.getInstance().getString("userEmail");
         userPassword = DataManager.getInstance().getString("userPassword");
     }

@@ -11,7 +11,7 @@ import static constants.MenuItem.DESKTOPS;
 public class LoginTest extends BaseTest{
 
     @Test
-    public void purchaseProductTest() throws InterruptedException {
+    public void loginTest() throws InterruptedException {
 
 
         // login to application
