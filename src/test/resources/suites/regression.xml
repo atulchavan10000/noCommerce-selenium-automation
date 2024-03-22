@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Sample Test Suite">
-
-    <test thread-count="5" name="Regression" parallel="classes">
+<suite name="Sample Test Suite" parallel="classes">
+    <listeners>
+        <listener class-name="utils.Listeners"></listener>
+    </listeners>
+    <test thread-count="5" name="Commerce App Tests">
         <classes>
             <class name="noCommerce.tests.LoginTest"/>
             <class name="noCommerce.tests.PurchaseProductTest"/>

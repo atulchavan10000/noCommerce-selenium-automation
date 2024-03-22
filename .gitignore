@@ -9,3 +9,4 @@ target/
 
 # TestNG Reports
 test-output/
+reports/
